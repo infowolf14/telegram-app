@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Add to Cart App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Shopping Cart</h1>
+
+        <!-- Product List -->
+        <div class="products">
+            <div class="product">
+                <h3>Product 1</h3>
+                <p>Price: $10</p>
+                <button class="add-to-cart" data-price="10">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Product 2</h3>
+                <p>Price: $15</p>
+                <button class="add-to-cart" data-price="15">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Product 3</h3>
+                <p>Price: $20</p>
+                <button class="add-to-cart" data-price="20">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Cart Display -->
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-items">
+                <!-- Items will be added here -->
+            </ul>
+            <p>Total: $<span id="total">0</span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
